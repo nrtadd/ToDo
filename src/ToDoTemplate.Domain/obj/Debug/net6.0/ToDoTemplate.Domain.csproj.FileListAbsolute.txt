@@ -1,0 +1,12 @@
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\bin\Debug\net6.0\ToDoTemplate.Domain.deps.json
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\bin\Debug\net6.0\ToDoTemplate.Domain.dll
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\bin\Debug\net6.0\ToDoTemplate.Domain.pdb
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.csproj.AssemblyReference.cache
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.AssemblyInfoInputs.cache
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.AssemblyInfo.cs
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.csproj.CoreCompileInputs.cache
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.dll
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\obj\Debug\net6.0\refint\ToDoTemplate.Domain.dll
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.pdb
+C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Domain\obj\Debug\net6.0\ref\ToDoTemplate.Domain.dll
