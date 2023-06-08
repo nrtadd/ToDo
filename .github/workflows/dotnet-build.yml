@@ -1,0 +1,34 @@
+name: Build
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+
+  build:
+     
+    runs-on: ubuntu-latest 
+   
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+        
+    - name: Restore
+      run: dotnet restore
+      
+    - name: Build 
+      run : dotnet build --no-restore
+        
+    - name: Tests
+      run: dotnet test
+
+
+
