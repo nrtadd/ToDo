@@ -22,17 +22,17 @@ jobs:
         dotnet-version: 6.0.x
         
     - name: Restore
-      run: 
+      run: |
         cd src/webapi
         dotnet restore
       
     - name: Build 
-      run : 
+      run : |
         cd src/WebApi
         dotnet build --no-restore
         
     - name: Tests
-      run: 
+      run: |
         cd tests/Entity.Tests
         dotnet test
 
