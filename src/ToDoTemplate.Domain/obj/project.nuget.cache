@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LVWcg3QeCSdNcPxIi5CBPYzVx+uA3+4xkDheWKrIs/c+ogHTb+fFHy3YO5oFuo/g69DQwTwfV5qC8XJX8RQ17Q==",
+  "dgSpecHash": "KCXfNtSVOKLLKMYuDZ9OV7WnzmdA9it6UZYoAfdvEW8eKVU02BbH0LGqgiNNVYrfeE9wkxNWkh9lILIZYVK2lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1122\\Desktop\\result\\ToDoTemplate\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\1122\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\1122\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\1122\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

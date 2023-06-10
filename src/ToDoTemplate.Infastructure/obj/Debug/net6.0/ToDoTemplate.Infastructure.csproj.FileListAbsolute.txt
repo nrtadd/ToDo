@@ -15,3 +15,20 @@ C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Infastructure\obj\Deb
 C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\refint\ToDoTemplate.Infastructure.dll
 C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ToDoTemplate.Infastructure.pdb
 C:\Users\1122\Desktop\result\ToDoTemplate\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ref\ToDoTemplate.Infastructure.dll
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\bin\Debug\net6.0\ToDoTemplate.Infastructure.deps.json
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\bin\Debug\net6.0\ToDoTemplate.Infastructure.dll
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\bin\Debug\net6.0\ToDoTemplate.Infastructure.pdb
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\bin\Debug\net6.0\ToDoTemplate.Application.dll
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\bin\Debug\net6.0\ToDoTemplate.Domain.dll
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\bin\Debug\net6.0\ToDoTemplate.Application.pdb
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\bin\Debug\net6.0\ToDoTemplate.Domain.pdb
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ToDoTemplate.Infastructure.csproj.AssemblyReference.cache
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ToDoTemplate.Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ToDoTemplate.Infastructure.AssemblyInfoInputs.cache
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ToDoTemplate.Infastructure.AssemblyInfo.cs
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ToDoTemplate.Infastructure.csproj.CoreCompileInputs.cache
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ToDoTemplate.Infastructure.csproj.CopyComplete
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ToDoTemplate.Infastructure.dll
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\refint\ToDoTemplate.Infastructure.dll
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ToDoTemplate.Infastructure.pdb
+C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Infastructure\obj\Debug\net6.0\ref\ToDoTemplate.Infastructure.dll

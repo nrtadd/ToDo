@@ -3625,24 +3625,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1122\\.nuget\\packages\\": {},
-    "R:\\Program\\studiopackeg\\NuGetPackages": {}
+    "C:\\Users\\rarew\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1122\\Desktop\\result\\ToDoTemplate\\src\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\1122\\Desktop\\result\\ToDoTemplate\\src\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\1122\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1122\\Desktop\\result\\ToDoTemplate\\src\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\rarew\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "R:\\Program\\studiopackeg\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\1122\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\rarew\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3657,11 +3652,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\1122\\Desktop\\result\\ToDoTemplate\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
-              "projectPath": "C:\\Users\\1122\\Desktop\\result\\ToDoTemplate\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj"
+            "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
+              "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj"
             },
-            "C:\\Users\\1122\\Desktop\\result\\ToDoTemplate\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj": {
-              "projectPath": "C:\\Users\\1122\\Desktop\\result\\ToDoTemplate\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj"
+            "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj": {
+              "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj"
             }
           }
         }
@@ -3704,24 +3699,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.16, 6.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
