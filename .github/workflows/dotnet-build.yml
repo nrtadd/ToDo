@@ -22,13 +22,13 @@ jobs:
         dotnet-version: 6.0.x
         
     - name: Restore
-      run: dotnet restore
+      run: dotnet restore "./src/WebApi"
       
     - name: Build 
-      run : dotnet build --no-restore
+      run : dotnet build "./src/WebApi" --no-restore
         
     - name: Tests
-      run: dotnet test
+      run: dotnet test "./src/WebApi"
 
 
 
