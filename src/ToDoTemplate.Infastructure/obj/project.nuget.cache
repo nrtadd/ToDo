@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+WYildO7Yj9lsu8kKb1DAcTjb7U5yz1Dg54x+9lS6ft5FA2z0fwuswXYgM67JVMNeZm3lfYbHMRK7CM2g/+nkA==",
+  "dgSpecHash": "OZI5JWVFuQgH6+CD1Fi+JQUZfuDu4o5pCXJl9Ce9TIE/pf8AKXvldV8TnfrlhfrNc5QUHC1Yj2JjXvfjn70chg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj",
+  "projectFilePath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rarew\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\fluentvalidation\\11.0.0\\fluentvalidation.11.0.0.nupkg.sha512",

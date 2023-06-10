@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KCXfNtSVOKLLKMYuDZ9OV7WnzmdA9it6UZYoAfdvEW8eKVU02BbH0LGqgiNNVYrfeE9wkxNWkh9lILIZYVK2lg==",
+  "dgSpecHash": "L+EpC7HZ1si3u4I01U25oCaUv7iv/KzTMJ3Y6OisptBb1eVDQiAk2g497pifdk1txaEvJndeHA64x1ZCTuzcXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
+  "projectFilePath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -3630,11 +3630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\WebApi\\WebApi.csproj",
+      "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\rarew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\WebApi\\obj\\",
+      "outputPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rarew\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3652,11 +3652,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
-              "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj"
+            "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
+              "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj"
             },
-            "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj": {
-              "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj"
+            "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj": {
+              "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj"
             }
           }
         }

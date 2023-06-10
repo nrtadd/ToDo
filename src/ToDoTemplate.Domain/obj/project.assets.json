@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
       "projectName": "ToDoTemplate.Domain",
-      "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
+      "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
       "packagesPath": "C:\\Users\\rarew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\ToDoTemplate.Domain\\obj\\",
+      "outputPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rarew\\AppData\\Roaming\\NuGet\\NuGet.Config",

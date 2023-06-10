@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J2zEaSx6QRcFlLFCF8nZH5KKfwPGqEPiKab0efkfVabHwFzy5g/l0HxAXoz7m5lG+0v2QWexaL+S14oXdxq1Zw==",
+  "dgSpecHash": "a7WMlM9p42Dervd7OBaApZ8DIJ7XHVr++4aNMu1m0ub5qMQLLR7XfRWBi6bLV7uwVaIPcvv3BQR0SQY/csD6YA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\ToDo\\src\\WebApi\\WebApi.csproj",
+  "projectFilePath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rarew\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
