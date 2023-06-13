@@ -5,5 +5,6 @@ namespace ToDoTemplate.Infastructure.Identity
     public class AppUser : IdentityUser
     {
         public string? RefreshToken { get; set; }
+        public DateTime? ExpirationRefreshToken { get; set; }
     }
 }

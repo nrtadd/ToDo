@@ -43,7 +43,7 @@ namespace ToDoTemplate.Infastructure.Identity
             var result = await _userManager.CreateAsync(user, request.Password);
             if (!result.Succeeded)
             {
-                throw new IdentityExceptions(String.Concat(result.Errors.Select(x=>x.Description)));
+                throw new IdentityExceptions(String.Concat(result.Errors.Select(x => x.Description)));
             }
             var findUser = await _userManager.FindByEmailAsync(request.Email);
             await _userManager.AddClaimAsync(findUser, new Claim(Roles.Client.ToString(), true.ToString()));
@@ -68,7 +68,7 @@ namespace ToDoTemplate.Infastructure.Identity
         public async Task<AuthResponse> AuthenticateAsync(AuthwithRefreshRequest request)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
-            if (user == null || (user.RefreshToken != request.RefreshToken) || request.RefreshToken == null)
+            if (user == null || (user.RefreshToken != request.RefreshToken) || request.RefreshToken == null || user.ExpirationRefreshToken < DateTime.Now)
             {
                 throw new IdentityExceptions("Invalid data");
             }
@@ -78,16 +78,20 @@ namespace ToDoTemplate.Infastructure.Identity
         private async Task<AuthResponse> GeneratorAuthResponse(AppUser user)
         {
             AuthResponse response = new AuthResponse();
-            var Refresh = GetRefreshToken();
+            if (user.ExpirationRefreshToken == null || user.RefreshToken == null || user.ExpirationRefreshToken < DateTime.Now)
+            {
+                var Refresh = GetRefreshToken();
+                user.RefreshToken = Refresh;
+                user.ExpirationRefreshToken = DateTime.Now.AddDays(7);
+            }
             JwtSecurityToken jwtSecurityToken = await GenerateJWToken(user);
-            user.RefreshToken = Refresh;
-            _userManager.UpdateAsync(user);
+            await _userManager.UpdateAsync(user);
             response.UserId = user.Id;
             response.JWToken = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken);
             response.Email = user.Email;
             var rolesList = await _userManager.GetRolesAsync(user).ConfigureAwait(false);
             response.Roles = rolesList.ToList();
-            response.RefreshToken = Refresh;
+            response.RefreshToken = user.RefreshToken;
             return response;
         }
         private string GetRefreshToken()
