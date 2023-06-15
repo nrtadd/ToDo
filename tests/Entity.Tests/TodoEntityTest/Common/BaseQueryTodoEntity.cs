@@ -14,7 +14,7 @@ namespace Entity.Tests.TodoEntityTest.Common
         protected readonly AppDbContext _context;
         protected readonly IMapper _mapper;
 
-        public BaseQueryTodoEntity()
+        protected BaseQueryTodoEntity()
         {
             _context = ContextTodoEntity.CreateDb();
             _mapper = (new MapperConfiguration(config => config.AddProfile(new AssemblyMap(typeof(IMap<>).Assembly)))).CreateMapper();

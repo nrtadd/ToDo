@@ -22,3 +22,15 @@ C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Domain\obj
 C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\refint\ToDoTemplate.Domain.dll
 C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.pdb
 C:\Users\rarew\OneDrive\Рабочий стол\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ref\ToDoTemplate.Domain.dll
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\bin\Debug\net6.0\ToDoTemplate.Domain.deps.json
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\bin\Debug\net6.0\ToDoTemplate.Domain.dll
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\bin\Debug\net6.0\ToDoTemplate.Domain.pdb
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.csproj.AssemblyReference.cache
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.AssemblyInfoInputs.cache
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.AssemblyInfo.cs
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.csproj.CoreCompileInputs.cache
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.dll
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\refint\ToDoTemplate.Domain.dll
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ToDoTemplate.Domain.pdb
+c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\src\ToDoTemplate.Domain\obj\Debug\net6.0\ref\ToDoTemplate.Domain.dll

@@ -14,7 +14,6 @@ namespace ToDoTemplate.Infastructure.Identity
     public class AppUserService : IAppUserService
     {
         private readonly UserManager<AppUser> _userManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IConfiguration _configuration;
 
@@ -28,7 +27,6 @@ namespace ToDoTemplate.Infastructure.Identity
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            _roleManager = roleManager;
             _configuration = configuration;
         }
 

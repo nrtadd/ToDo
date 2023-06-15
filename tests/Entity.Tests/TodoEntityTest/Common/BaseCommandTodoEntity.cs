@@ -11,7 +11,7 @@ namespace Entity.Tests.TodoEntityTest.Common
     {
         protected readonly AppDbContext _context;
 
-        public BaseCommandTodoEntity()
+        protected BaseCommandTodoEntity()
         {
             _context = ContextTodoEntity.CreateDb();
         }

@@ -9,7 +9,7 @@ using ToDoTemplate.Infastructure.Persistence;
 
 namespace Entity.Tests.TodoListTest.Common
 {
-    public class ContextTodoList
+    public static class ContextTodoList
     {
         public static Guid UserID = Guid.NewGuid();
         public static Guid ListEntitytoDelete = Guid.NewGuid();

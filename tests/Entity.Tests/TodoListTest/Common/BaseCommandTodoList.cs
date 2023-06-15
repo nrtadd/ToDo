@@ -11,7 +11,7 @@ namespace Entity.Tests.TodoListTest.Common
     {
         protected readonly AppDbContext _context;
 
-        public BaseCommandTodoList()
+        protected BaseCommandTodoList()
         {
             _context = ContextTodoList.CreateDb();
         }

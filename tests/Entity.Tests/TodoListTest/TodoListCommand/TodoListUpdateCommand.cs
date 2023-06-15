@@ -7,7 +7,7 @@ namespace Entity.Tests.TodoListTest.TodoListCommand
 {
     public class TodoListUpdateCommand : BaseCommandTodoList
     {
-        string title = "ListForUpdateSuccess";
+        readonly string title = "ListForUpdateSuccess";
         [Fact]
         public async Task UpdateTodoListCommand_Success()
         {

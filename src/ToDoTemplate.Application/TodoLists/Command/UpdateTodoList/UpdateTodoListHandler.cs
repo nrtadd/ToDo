@@ -25,7 +25,7 @@ namespace ToDoTemplate.Application.TodoLists.Command.UpdateTodoList
             if (request.Todos != null)
             {
                 var todoentity = await _context.todoEntities.Where(x => request.Todos.Contains(x.Id)).ToListAsync();
-                if (todoentity == null || todoentity.Any(x => x.UserId != request.UserId))
+                if (todoentity == null || todoentity.Exists(x => x.UserId != request.UserId))
                 {
                     throw new NotFoundException(nameof(TodoEntity), request.Todos);
                 }

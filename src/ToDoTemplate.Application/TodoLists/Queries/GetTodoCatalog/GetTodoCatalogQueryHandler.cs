@@ -22,7 +22,7 @@ namespace ToDoTemplate.Application.TodoLists.Queries.GetTodoCatalog
         public async Task<GetTodoCatalog> Handle(GetTodoCatalogQuery request, CancellationToken cancellationToken)
         {
             var lists = await _context.todoLists.Where(x => x.UserId == request.UserId).ProjectTo<GetTodoListVm>(_mapper.ConfigurationProvider).ToListAsync();
-            if (lists.Count == 0 || lists == null)
+            if (lists.Count == 0)
             {
                 throw new NotFoundException(nameof(TodoList), request.UserId);
             }

@@ -4,7 +4,7 @@ using ToDoTemplate.Infastructure.Persistence;
 
 namespace Entity.Tests.TodoEntityTest.Common
 {
-    public class ContextTodoEntity
+    public static class ContextTodoEntity
     {
         public static Guid UserID = Guid.NewGuid();
         public static Guid EntitytoDelete = Guid.NewGuid();

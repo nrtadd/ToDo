@@ -9,7 +9,7 @@ namespace Entity.Tests.TodoListTest.Common
         protected readonly AppDbContext _context;
         protected readonly IMapper _mapper;
 
-        public BaseQueryTodoList()
+        protected BaseQueryTodoList()
         {
             _context = ContextTodoList.CreateDb();
             _mapper = (new MapperConfiguration(config => config.AddProfile(new AssemblyMap(typeof(IMap<>).Assembly)))).CreateMapper();

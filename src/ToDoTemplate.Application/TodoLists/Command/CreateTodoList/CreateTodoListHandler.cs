@@ -22,7 +22,7 @@ namespace ToDoTemplate.Application.TodoLists.Command.CreateTodoList
                 CreationDate = DateTime.Now,
                 EditDate = null,
                 Title = request.Title,
-                Todos = null
+                Todos = new List<TodoEntity>()
             };
             await _context.todoLists.AddAsync(todolist);
             await _context.SaveChangesAsync(cancellationToken);

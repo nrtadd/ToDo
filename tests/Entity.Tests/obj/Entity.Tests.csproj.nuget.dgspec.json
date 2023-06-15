@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\Entity.Tests.csproj": {}
+    "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\Entity.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
+    "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj",
+        "projectUniqueName": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj",
         "projectName": "ToDoTemplate.Application",
-        "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj",
+        "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj",
         "packagesPath": "C:\\Users\\rarew\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\obj\\",
+        "outputPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rarew\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj": {
-                "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj"
+              "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj": {
+                "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj": {
+    "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
         "projectName": "ToDoTemplate.Domain",
-        "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
+        "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
         "packagesPath": "C:\\Users\\rarew\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\obj\\",
+        "outputPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rarew\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,14 +148,14 @@
         }
       }
     },
-    "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj": {
+    "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj",
+        "projectUniqueName": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj",
         "projectName": "ToDoTemplate.Infastructure",
-        "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj",
+        "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj",
         "packagesPath": "C:\\Users\\rarew\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\obj\\",
+        "outputPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rarew\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,8 +172,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
-                "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj"
+              "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
+                "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj"
               }
             }
           }
@@ -197,10 +197,6 @@
               "version": "[6.0.3, )"
             },
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.3, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.3, )"
             },
@@ -229,14 +225,14 @@
         }
       }
     },
-    "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\Entity.Tests.csproj": {
+    "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\Entity.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\Entity.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\Entity.Tests.csproj",
         "projectName": "Entity.Tests",
-        "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\Entity.Tests.csproj",
+        "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\Entity.Tests.csproj",
         "packagesPath": "C:\\Users\\rarew\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\obj\\",
+        "outputPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\tests\\Entity.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rarew\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -253,11 +249,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
-                "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj"
+              "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj": {
+                "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj"
               },
-              "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj": {
-                "projectPath": "c:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj"
+              "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj": {
+                "projectPath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Infastructure\\ToDoTemplate.Infastructure.csproj"
               }
             }
           }
@@ -279,6 +275,12 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.3.0.71466, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

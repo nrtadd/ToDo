@@ -8,8 +8,8 @@ namespace Entity.Tests.TodoEntityTest.TodoEntityCommand
 {
     public class TodoEntityUpdateCommand : BaseCommandTodoEntity
     {
-        string title = "TitleEntityforUpdateSuccess";
-        string description = "DescriptionEntityforUpdate";
+        readonly string title = "TitleEntityforUpdateSuccess";
+        readonly string description = "DescriptionEntityforUpdate";
         [Fact]
         public async Task UpdateTodoEntityCommand_Success()
         {
