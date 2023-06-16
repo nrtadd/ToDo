@@ -7,10 +7,14 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ToDoTemplate.Domain/1.0.0": {
+        "dependencies": {
+          "SonarAnalyzer.CSharp": "9.3.0.71466"
+        },
         "runtime": {
           "ToDoTemplate.Domain.dll": {}
         }
-      }
+      },
+      "SonarAnalyzer.CSharp/9.3.0.71466": {}
     }
   },
   "libraries": {
@@ -18,6 +22,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "SonarAnalyzer.CSharp/9.3.0.71466": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XaoZmOTe3K0Qpa5vRs4hL4Lli1F4FvCEk+3e1C+pZu/tuzTyZxorC3j3tCHaUpMzJWlFPx27sUul9ubvVbEeig==",
+      "path": "sonaranalyzer.csharp/9.3.0.71466",
+      "hashPath": "sonaranalyzer.csharp.9.3.0.71466.nupkg.sha512"
     }
   }
 }

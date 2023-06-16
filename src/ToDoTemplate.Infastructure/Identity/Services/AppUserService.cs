@@ -9,7 +9,7 @@ using ToDoTemplate.Application.Common.Exceptions;
 using ToDoTemplate.Application.Common.Interfaces;
 using ToDoTemplate.Application.Common.Model.Identity;
 
-namespace ToDoTemplate.Infastructure.Identity
+namespace ToDoTemplate.Infastructure.Identity.Services
 {
     public class AppUserService : IAppUserService
     {
@@ -41,7 +41,7 @@ namespace ToDoTemplate.Infastructure.Identity
             var result = await _userManager.CreateAsync(user, request.Password);
             if (!result.Succeeded)
             {
-                throw new IdentityExceptions(String.Concat(result.Errors.Select(x => x.Description)));
+                throw new IdentityExceptions(string.Concat(result.Errors.Select(x => x.Description)));
             }
             var findUser = await _userManager.FindByEmailAsync(request.Email);
             await _userManager.AddClaimAsync(findUser, new Claim(Roles.Client.ToString(), true.ToString()));
@@ -51,7 +51,7 @@ namespace ToDoTemplate.Infastructure.Identity
         public async Task<AuthResponse> AuthenticateAsync(AuthRequest request)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
-            if (user == null || String.IsNullOrEmpty(request.Password))
+            if (user == null || string.IsNullOrEmpty(request.Password))
             {
                 throw new IdentityExceptions("Invalid data");
             }
@@ -66,7 +66,7 @@ namespace ToDoTemplate.Infastructure.Identity
         public async Task<AuthResponse> AuthenticateAsync(AuthwithRefreshRequest request)
         {
             var user = await _userManager.FindByEmailAsync(request.Email);
-            if (user == null || (user.RefreshToken != request.RefreshToken) || request.RefreshToken == null || user.ExpirationRefreshToken < DateTime.Now)
+            if (user == null || user.RefreshToken != request.RefreshToken || request.RefreshToken == null || user.ExpirationRefreshToken < DateTime.Now)
             {
                 throw new IdentityExceptions("Invalid data");
             }

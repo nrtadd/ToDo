@@ -26,7 +26,7 @@ namespace Entity.Tests.TodoEntityTest.TodoEntityCommand
                 PriorityToDo = Priority.Critical,
             }, CancellationToken.None);
 
-            Assert.NotNull(await _context.todoEntities.FirstOrDefaultAsync(entity => entity.Id == ContextTodoEntity.EntitytoUpdate
+            Assert.NotNull(await _context.TodoEntities.FirstOrDefaultAsync(entity => entity.Id == ContextTodoEntity.EntitytoUpdate
             && entity.Title == title
             && entity.Description == description
             && entity.UserId == ContextTodoEntity.UserID));

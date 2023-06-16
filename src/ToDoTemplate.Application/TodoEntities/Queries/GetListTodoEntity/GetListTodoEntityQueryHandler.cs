@@ -21,7 +21,7 @@ namespace ToDoTemplate.Application.TodoEntities.Queries.GetListTodoEntity
         }
         public async Task<GetListTodoEntityList> Handle(GetListTodoEntityQuery request, CancellationToken cancellationToken)
         {
-            var entities = await _context.todoEntities.Where(todo => todo.UserId == request.UserId).AsNoTracking()
+            var entities = await _context.TodoEntities.Where(todo => todo.UserId == request.UserId).AsNoTracking()
                 .ProjectTo<GetTodoEntityVm>(_mapper.ConfigurationProvider).ToListAsync(cancellationToken);
             if (entities.Count == 0)
             {

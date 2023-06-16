@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IFRfX51vJn3f4LVu2elyYFNYW+UaPk0PM6l5Ie07SBZ3uEesKDXzaI48C9PeR7XMdLiPbzch507gd3bO0euzzw==",
+  "dgSpecHash": "5tgbTItf1kKpPiki5z0+xu3zTkZ5MdNOGNvei+hkRZVkNtJFwkQHl9LSXfKqI36XTx9G6T4QlnFqH7697w80Mg==",
   "success": true,
   "projectFilePath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Domain\\ToDoTemplate.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rarew\\.nuget\\packages\\sonaranalyzer.csharp\\9.3.0.71466\\sonaranalyzer.csharp.9.3.0.71466.nupkg.sha512"
+  ],
   "logs": []
 }

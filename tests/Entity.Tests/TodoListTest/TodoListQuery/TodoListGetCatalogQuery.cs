@@ -1,10 +1,4 @@
-﻿using Entity.Tests.TodoEntityTest.Common;
-using Entity.Tests.TodoListTest.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entity.Tests.TodoListTest.Common;
 using ToDoTemplate.Application.Common.Exceptions;
 using ToDoTemplate.Application.TodoLists.Queries.GetTodoCatalog;
 
@@ -23,7 +17,7 @@ namespace Entity.Tests.TodoListTest.TodoListQuery
             }, CancellationToken.None);
 
             Assert.NotNull(result);
-            Assert.True(result.catalog.Count == 4);
+            Assert.True(result.Catalog.Count == 4);
 
         }
         [Fact]

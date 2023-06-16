@@ -16,7 +16,7 @@ namespace Entity.Tests.TodoListTest.TodoListCommand
                 Id = ContextTodoList.ListEntitytoDelete,
                 UserId = ContextTodoList.UserID
             }, CancellationToken.None);
-            Assert.Null(await _context.todoLists.FirstOrDefaultAsync(entity => entity.Id == ContextTodoList.ListEntitytoDelete && entity.UserId == ContextTodoList.UserID));
+            Assert.Null(await _context.TodoLists.FirstOrDefaultAsync(entity => entity.Id == ContextTodoList.ListEntitytoDelete && entity.UserId == ContextTodoList.UserID));
         }
         [Fact]
         public async Task DeleteTodoListCommand_UserIDWrong_NotFoundException()

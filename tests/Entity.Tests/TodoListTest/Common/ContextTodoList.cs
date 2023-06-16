@@ -1,9 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ToDoTemplate.Domain.Entities;
 using ToDoTemplate.Infastructure.Persistence;
 
@@ -11,18 +6,18 @@ namespace Entity.Tests.TodoListTest.Common
 {
     public static class ContextTodoList
     {
-        public static Guid UserID = Guid.NewGuid();
-        public static Guid ListEntitytoDelete = Guid.NewGuid();
-        public static Guid ListEntitytoUpdate = Guid.NewGuid();
-        public static Guid ListEntitytoGet = Guid.NewGuid();
-        public static Guid ListSecondEntitytoGet = Guid.NewGuid();
+        public readonly static Guid UserID = Guid.NewGuid();
+        public readonly static Guid ListEntitytoDelete = Guid.NewGuid();
+        public readonly static Guid ListEntitytoUpdate = Guid.NewGuid();
+        public readonly static Guid ListEntitytoGet = Guid.NewGuid();
+        public readonly static Guid ListSecondEntitytoGet = Guid.NewGuid();
         public static AppDbContext CreateDb()
         {
             var db = new DbContextOptionsBuilder<AppDbContext>().UseInMemoryDatabase(Guid.NewGuid().ToString()).Options;
             var context = new AppDbContext(db);
             context.Database.EnsureCreated();
-            context.todoLists.AddRange(
-               
+            context.TodoLists.AddRange(
+
                 new TodoList
                 {
                     Id = ListEntitytoDelete,
@@ -30,7 +25,7 @@ namespace Entity.Tests.TodoListTest.Common
                     CreationDate = DateTime.Now,
                     EditDate = null,
                     Title = "ListForDelete",
-                    Todos= new List<TodoEntity>(),
+                    Todos = new List<TodoEntity>(),
 
                 },
                 new TodoList

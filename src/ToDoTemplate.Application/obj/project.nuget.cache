@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PKvZLhSV14HpnfC9CenspDFpacpfh/M56UNOq8JzLQ6nvL2kMnBxsGjbzAMNBKnJXUdM+1F6NGkth9oozg5vPw==",
+  "dgSpecHash": "7wjkpoV+CebAia2uS77SpX/7OWSzer9W5BBv7ukSaD8KnRkIpa1NYO6BDAn575gEaCQ5YBen6u8YaC7/G5waSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\ToDoTemplate.Application\\ToDoTemplate.Application.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\rarew\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
+    "C:\\Users\\rarew\\.nuget\\packages\\sonaranalyzer.csharp\\9.3.0.71466\\sonaranalyzer.csharp.9.3.0.71466.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"

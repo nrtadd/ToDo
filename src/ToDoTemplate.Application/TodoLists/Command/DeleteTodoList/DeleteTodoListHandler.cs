@@ -15,12 +15,12 @@ namespace ToDoTemplate.Application.TodoLists.Command.DeleteTodoList
         }
         public async Task<Unit> Handle(DeleteTodoListCommand request, CancellationToken cancellationToken)
         {
-            var entity = await _context.todoLists.FindAsync(new object[] { request.Id }, cancellationToken);
+            var entity = await _context.TodoLists.FindAsync(new object[] { request.Id }, cancellationToken);
             if (entity == null || entity.UserId != request.UserId)
             {
                 throw new NotFoundException(nameof(TodoList), request.Id);
             }
-            _context.todoLists.Remove(entity);
+            _context.TodoLists.Remove(entity);
             await _context.SaveChangesAsync(cancellationToken);
             return Unit.Value;
         }

@@ -17,14 +17,14 @@ namespace ToDoTemplate.Application.TodoLists.Command.UpdateTodoList
 
         public async Task<Unit> Handle(UpdateTodoListCommand request, CancellationToken cancellationToken)
         {
-            var list = await _context.todoLists.FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+            var list = await _context.TodoLists.FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
             if (list == null || list.UserId != request.UserId)
             {
                 throw new NotFoundException(nameof(TodoList), request.Id);
             }
             if (request.Todos != null)
             {
-                var todoentity = await _context.todoEntities.Where(x => request.Todos.Contains(x.Id)).ToListAsync();
+                var todoentity = await _context.TodoEntities.Where(x => request.Todos.Contains(x.Id)).ToListAsync(cancellationToken);
                 if (todoentity == null || todoentity.Exists(x => x.UserId != request.UserId))
                 {
                     throw new NotFoundException(nameof(TodoEntity), request.Todos);

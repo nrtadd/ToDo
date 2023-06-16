@@ -1,9 +1,4 @@
 ﻿using Entity.Tests.TodoListTest.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ToDoTemplate.Application.Common.Exceptions;
 using ToDoTemplate.Application.TodoLists.Queries.GetTodoList;
 
@@ -21,7 +16,7 @@ namespace Entity.Tests.TodoListTest.TodoListQuery
             {
                 Id = ContextTodoList.ListEntitytoGet,
                 UserId = ContextTodoList.UserID
-            }, CancellationToken.None) ; 
+            }, CancellationToken.None);
 
             Assert.NotNull(result);
             Assert.True(result.Id == ContextTodoList.ListEntitytoGet && result.Title == "ListForGet");
@@ -34,7 +29,7 @@ namespace Entity.Tests.TodoListTest.TodoListQuery
 
             await Assert.ThrowsAsync<NotFoundException>(async () => await query.Handle(new GetTodoListQuery()
             {
-                Id=ContextTodoList.ListEntitytoGet,
+                Id = ContextTodoList.ListEntitytoGet,
                 UserId = Guid.NewGuid()
             }, CancellationToken.None));
 

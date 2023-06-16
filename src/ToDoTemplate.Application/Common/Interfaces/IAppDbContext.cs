@@ -5,8 +5,8 @@ namespace ToDoTemplate.Application.Common.Interfaces
 {
     public interface IAppDbContext
     {
-        DbSet<TodoEntity> todoEntities { get; set; }
-        DbSet<TodoList> todoLists { get; set; }
+        DbSet<TodoEntity> TodoEntities { get; set; }
+        DbSet<TodoList> TodoLists { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }
 }

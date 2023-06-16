@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using ToDoTemplate.Application.Common.Mapping;
 using ToDoTemplate.Domain.Entities;
-using ToDoTemplate.Domain.Enums;
 
 namespace ToDoTemplate.Application.TodoEntities.Queries.Common
 {

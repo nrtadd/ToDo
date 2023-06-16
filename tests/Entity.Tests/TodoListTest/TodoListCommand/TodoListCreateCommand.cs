@@ -11,13 +11,13 @@ namespace Entity.Tests.TodoListTest.TodoListCommand
         {
             var handler = new CreateTodoListHandler(_context);
 
-            var listid =await handler.Handle(new CreateTodoListCommand()
+            var listid = await handler.Handle(new CreateTodoListCommand()
             {
                 Title = "CreateTodoList",
                 UserId = ContextTodoList.UserID
             }, CancellationToken.None);
 
-            Assert.NotNull(await _context.todoLists.FirstOrDefaultAsync(entity => entity.Id == listid
+            Assert.NotNull(await _context.TodoLists.FirstOrDefaultAsync(entity => entity.Id == listid
             && entity.UserId == ContextTodoList.UserID));
 
         }

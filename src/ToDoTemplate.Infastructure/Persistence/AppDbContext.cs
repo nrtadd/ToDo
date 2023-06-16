@@ -7,8 +7,8 @@ namespace ToDoTemplate.Infastructure.Persistence
 {
     public class AppDbContext : DbContext, IAppDbContext
     {
-        public DbSet<TodoEntity> todoEntities { get; set; } = null!;
-        public DbSet<TodoList> todoLists { get; set; } = null!;
+        public DbSet<TodoEntity> TodoEntities { get; set; } = null!;
+        public DbSet<TodoList> TodoLists { get; set; } = null!;
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
             Database.EnsureCreated();

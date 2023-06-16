@@ -21,14 +21,14 @@ namespace ToDoTemplate.Application.TodoLists.Queries.GetTodoCatalog
         }
         public async Task<GetTodoCatalog> Handle(GetTodoCatalogQuery request, CancellationToken cancellationToken)
         {
-            var lists = await _context.todoLists.Where(x => x.UserId == request.UserId).ProjectTo<GetTodoListVm>(_mapper.ConfigurationProvider).ToListAsync();
+            var lists = await _context.TodoLists.Where(x => x.UserId == request.UserId).ProjectTo<GetTodoListVm>(_mapper.ConfigurationProvider).ToListAsync(cancellationToken);
             if (lists.Count == 0)
             {
                 throw new NotFoundException(nameof(TodoList), request.UserId);
             }
             return new GetTodoCatalog
             {
-                catalog = lists
+                Catalog = lists
             };
         }
     }

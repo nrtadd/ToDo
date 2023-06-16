@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DvrJbPpKyxuzF5Wyid+8xr72U0F3y21/mpLI/KChOXu05gcnQR9QllpwWCvDfcHpo/g8iJGWejjHmBhqYGcPaA==",
+  "dgSpecHash": "BpSLk00YvztC2xAJ8Be0NqrVnmLRa88k6ritUbBZMpRCxNiqGNRgYClj4a7ldxANuz6lF6mQ2XsTnueHdaTErw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rarew\\OneDrive\\Рабочий стол\\prog\\ToDo\\src\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\rarew\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\rarew\\.nuget\\packages\\sonaranalyzer.csharp\\9.3.0.71466\\sonaranalyzer.csharp.9.3.0.71466.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
     "C:\\Users\\rarew\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",

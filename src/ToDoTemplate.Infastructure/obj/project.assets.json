@@ -582,6 +582,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.3.0.71466": {
+        "type": "package"
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
         "type": "package",
         "dependencies": {
@@ -1613,6 +1616,26 @@
         "serilog.nuspec"
       ]
     },
+    "SonarAnalyzer.CSharp/9.3.0.71466": {
+      "sha512": "XaoZmOTe3K0Qpa5vRs4hL4Lli1F4FvCEk+3e1C+pZu/tuzTyZxorC3j3tCHaUpMzJWlFPx27sUul9ubvVbEeig==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/9.3.0.71466",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.9.3.0.71466.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
       "sha512": "zssYqiaucyGArZfg74rJuzK0ewgZiidsRVrZTmP7JLNvK806gXg6PGA46XzoJGpNPPA5uRcumwvVp6YTYxtQ5w==",
       "type": "package",
@@ -1994,6 +2017,7 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.3",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.3",
+      "SonarAnalyzer.CSharp >= 9.3.0.71466",
       "ToDoTemplate.Application >= 1.0.0"
     ]
   },
@@ -2055,6 +2079,12 @@
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[6.0.3, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.3.0.71466, )"
           }
         },
         "imports": [

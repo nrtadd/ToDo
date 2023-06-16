@@ -24,7 +24,7 @@ namespace ToDoTemplate.Application.TodoLists.Command.CreateTodoList
                 Title = request.Title,
                 Todos = new List<TodoEntity>()
             };
-            await _context.todoLists.AddAsync(todolist);
+            await _context.TodoLists.AddAsync(todolist, cancellationToken);
             await _context.SaveChangesAsync(cancellationToken);
             return todolist.Id;
         }

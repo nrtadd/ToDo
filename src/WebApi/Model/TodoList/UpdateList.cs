@@ -6,7 +6,7 @@ namespace WebApi.Model.TodoList
 {
     public class UpdateList : IMap<UpdateTodoListCommand>
     {
-        public Guid id { get; set; }
+        public Guid Id { get; set; }
         public string? Title { get; set; }
         public List<Guid>? Todos { get; set; }
 

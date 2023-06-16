@@ -4,6 +4,6 @@ namespace ToDoTemplate.Application.TodoLists.Queries.GetTodoCatalog
 {
     public class GetTodoCatalog
     {
-        public IList<GetTodoListVm> catalog { get; set; }
+        public IList<GetTodoListVm> Catalog { get; set; }
     }
 }

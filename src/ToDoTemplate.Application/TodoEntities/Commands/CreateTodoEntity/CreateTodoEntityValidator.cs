@@ -6,7 +6,7 @@ namespace ToDoTemplate.Application.TodoEntities.Commands.CreateTodoEntity
     {
         public CreateTodoEntityValidator()
         {
-            RuleFor(create => create.Title).NotEmpty().MaximumLength(100);         
+            RuleFor(create => create.Title).NotEmpty().MaximumLength(100);
             RuleFor(create => create.Description).NotEmpty().MaximumLength(100);
             RuleFor(create => create.UserId).NotEmpty().NotEqual(Guid.Empty);
         }

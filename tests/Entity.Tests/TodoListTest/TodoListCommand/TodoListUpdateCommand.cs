@@ -21,7 +21,7 @@ namespace Entity.Tests.TodoListTest.TodoListCommand
                 Todos = null
             }, CancellationToken.None);
 
-            Assert.NotNull(await _context.todoLists.FirstOrDefaultAsync(entity => entity.Id == ContextTodoList.ListEntitytoUpdate
+            Assert.NotNull(await _context.TodoLists.FirstOrDefaultAsync(entity => entity.Id == ContextTodoList.ListEntitytoUpdate
             && entity.Title == title
             && entity.UserId == ContextTodoList.UserID));
         }

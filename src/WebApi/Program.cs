@@ -10,6 +10,7 @@ using WebApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog((context, conf) => conf.ReadFrom.Configuration(builder.Configuration));
+builder.Services.AddHealthChecks();
 builder.Services.AddTransient<ICurrentUserService, CurrentUserService>();
 builder.Services.AddApplication();
 builder.Services.AddCors(options =>
@@ -58,6 +59,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 var app = builder.Build();
+app.UseHealthChecks("/health");
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

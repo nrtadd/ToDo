@@ -20,7 +20,7 @@ namespace ToDoTemplate.Application.TodoEntities.Queries.GetTodoEntity
         }
         public async Task<GetTodoEntityVm> Handle(GetTodoEntityQuery request, CancellationToken cancellationToken)
         {
-            var entity = await _context.todoEntities.FirstOrDefaultAsync(todo => todo.Id == request.Id, cancellationToken);
+            var entity = await _context.TodoEntities.FirstOrDefaultAsync(todo => todo.Id == request.Id, cancellationToken);
             if (entity == null || entity.UserId != request.UserId)
             {
                 throw new NotFoundException(nameof(TodoEntity), request.Id);

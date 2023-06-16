@@ -14,12 +14,12 @@ namespace ToDoTemplate.Application.TodoEntities.Commands.DeleteTodoEntity
         private readonly IAppDbContext _context;
         public async Task<Unit> Handle(DeleteTodoEntityCommand request, CancellationToken cancellationToken)
         {
-            var entity = await _context.todoEntities.FindAsync(new object[] { request.Id }, cancellationToken);
+            var entity = await _context.TodoEntities.FindAsync(new object[] { request.Id }, cancellationToken);
             if (entity == null || entity.UserId != request.UserId)
             {
                 throw new NotFoundException(nameof(TodoEntity), request.Id);
             }
-            _context.todoEntities.Remove(entity);
+            _context.TodoEntities.Remove(entity);
             await _context.SaveChangesAsync(cancellationToken);
             return Unit.Value;
         }

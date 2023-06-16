@@ -300,6 +300,9 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/9.3.0.71466": {
+        "type": "package"
+      },
       "System.Collections.Immutable/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -809,6 +812,26 @@
         "serilog.nuspec"
       ]
     },
+    "SonarAnalyzer.CSharp/9.3.0.71466": {
+      "sha512": "XaoZmOTe3K0Qpa5vRs4hL4Lli1F4FvCEk+3e1C+pZu/tuzTyZxorC3j3tCHaUpMzJWlFPx27sUul9ubvVbEeig==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/9.3.0.71466",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/Google.Protobuf.dll",
+        "analyzers/SonarAnalyzer.CFG.dll",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "analyzers/SonarAnalyzer.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.9.3.0.71466.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "System.Collections.Immutable/6.0.0": {
       "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
       "type": "package",
@@ -897,6 +920,7 @@
       "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.3",
       "Serilog >= 2.12.0",
+      "SonarAnalyzer.CSharp >= 9.3.0.71466",
       "ToDoTemplate.Domain >= 1.0.0"
     ]
   },
@@ -970,6 +994,12 @@
           "Serilog": {
             "target": "Package",
             "version": "[2.12.0, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.3.0.71466, )"
           }
         },
         "imports": [

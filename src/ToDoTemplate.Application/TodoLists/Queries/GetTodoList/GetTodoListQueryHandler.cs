@@ -20,7 +20,7 @@ namespace ToDoTemplate.Application.TodoLists.Queries.GetTodoList
         }
         public async Task<GetTodoListVm> Handle(GetTodoListQuery request, CancellationToken cancellationToken)
         {
-            var list = await _context.todoLists.Include(x => x.Todos).FirstOrDefaultAsync(x => x.Id == request.Id);
+            var list = await _context.TodoLists.Include(x => x.Todos).FirstOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
             if (list == null || list.UserId != request.UserId)
             {
                 throw new NotFoundException(nameof(TodoEntity), request.Id);

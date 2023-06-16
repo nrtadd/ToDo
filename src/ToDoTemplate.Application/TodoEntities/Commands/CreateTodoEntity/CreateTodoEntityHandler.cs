@@ -27,7 +27,7 @@ namespace ToDoTemplate.Application.TodoEntities.Commands.CreateTodoEntity
                 EditDate = null,
                 todoList = null,
             };
-            await _context.todoEntities.AddAsync(todo);
+            await _context.TodoEntities.AddAsync(todo, cancellationToken);
             await _context.SaveChangesAsync(cancellationToken);
             return todo.Id;
 

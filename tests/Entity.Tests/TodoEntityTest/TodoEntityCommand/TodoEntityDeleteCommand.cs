@@ -1,5 +1,4 @@
 ﻿using Entity.Tests.TodoEntityTest.Common;
-using System.ComponentModel.DataAnnotations;
 using ToDoTemplate.Application.Common.Exceptions;
 using ToDoTemplate.Application.TodoEntities.Commands.DeleteTodoEntity;
 
@@ -18,7 +17,7 @@ namespace Entity.Tests.TodoEntityTest.TodoEntityCommand
                 UserId = ContextTodoEntity.UserID
             }, CancellationToken.None);
 
-            Assert.Null(_context.todoEntities.FirstOrDefault(entity => entity.Id == ContextTodoEntity.EntitytoDelete));
+            Assert.Null(_context.TodoEntities.FirstOrDefault(entity => entity.Id == ContextTodoEntity.EntitytoDelete));
         }
         [Fact]
         public async Task DeleteTodoEntityCommand_NotFoundException()
@@ -56,6 +55,6 @@ namespace Entity.Tests.TodoEntityTest.TodoEntityCommand
                     UserId = Guid.NewGuid(),
                 }, CancellationToken.None));
         }
-        
+
     }
 }

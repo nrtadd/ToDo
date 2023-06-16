@@ -1,9 +1,4 @@
 ﻿using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using ToDoTemplate.Application.Common.Mapping;
 using ToDoTemplate.Infastructure.Persistence;
 
@@ -22,7 +17,7 @@ namespace Entity.Tests.TodoEntityTest.Common
 
         public void Dispose()
         {
-           ContextTodoEntity.RemoveDateBase(_context);
+            ContextTodoEntity.RemoveDateBase(_context);
         }
     }
 }

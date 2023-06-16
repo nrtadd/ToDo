@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using ToDoTemplate.Application.Common.Interfaces;
 using ToDoTemplate.Infastructure.Identity;
+using ToDoTemplate.Infastructure.Identity.Services;
 
 namespace ToDoTemplate.Infastructure
 {
