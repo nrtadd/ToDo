@@ -11,6 +11,6 @@ namespace WebApi.Services
         {
             _accessor = accessor;
         }
-        public string UserId { get => _accessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value; }
+        public string UserId { get => _accessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier).Value;}
     }
 }
