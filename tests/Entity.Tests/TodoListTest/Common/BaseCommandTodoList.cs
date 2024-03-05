@@ -8,7 +8,7 @@ namespace Entity.Tests.TodoListTest.Common
 
         protected BaseCommandTodoList()
         {
-            _context = ContextTodoList.CreateDb();
+            _context =ContextTodoList.CreateDb();
         }
         public void Dispose()
         {
