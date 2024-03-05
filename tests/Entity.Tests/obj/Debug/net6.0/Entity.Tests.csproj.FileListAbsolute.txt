@@ -495,3 +495,4 @@ c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\tests\Entity.Tests\obj
 c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\tests\Entity.Tests\obj\Debug\net6.0\Entity.Tests.pdb
 c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\tests\Entity.Tests\obj\Debug\net6.0\Entity.Tests.genruntimeconfig.cache
 c:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\tests\Entity.Tests\obj\Debug\net6.0\ref\Entity.Tests.dll
+C:\Users\rarew\OneDrive\Рабочий стол\prog\ToDo\tests\Entity.Tests\obj\Debug\net6.0\Entity.Tests.sourcelink.json
